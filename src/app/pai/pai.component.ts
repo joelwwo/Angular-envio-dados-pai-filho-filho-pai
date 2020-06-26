@@ -1,6 +1,8 @@
-import { Familia } from './../../dados/familia';
-import { IMembro } from './../../dados/Interface/Membro';
 import { Component, OnInit } from '@angular/core';
+
+import { IMembro } from '../Membro';
+import { Familia } from '../Familia';
+
 
 @Component({
   selector: 'app-pai',

@@ -1,4 +1,4 @@
-import { IMembro } from './Interface/Membro';
+import { IMembro } from './Membro';
 
 export const Familia: IMembro[] = [
     { nome: 'Joel', sobrenome: 'Santos Silva', idade: 26 },

@@ -1,7 +1,6 @@
 import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
 
-import { IMembro } from './../../dados/Interface/Membro';
-
+import { IMembro } from '../Membro';
 @Component({
   selector: 'app-filho',
   templateUrl: './filho.component.html',
@@ -18,7 +17,7 @@ export class FilhoComponent implements OnInit {
 
   }
 
-  boazNasceu(): void {
+  partoBoaz(): void {
     const Boaz: IMembro = { nome: 'Boaz', sobrenome: 'Pajeú Silva', idade: 0.9 }
     this.nascimentoBoaz.emit(Boaz)
   }
